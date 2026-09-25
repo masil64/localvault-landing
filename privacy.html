@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LocalVault</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8f9fa; color: #333; line-height: 1.6; padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+        h1 { color: #1a73e8; }
+        h2 { color: #333; margin-top: 30px; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for LocalVault</h1>
+    <p><strong>Last updated:</strong> <span id="date"></span></p>
+
+    <h2>1. Introduction</h2>
+    <p>LocalVault is a local-first, encrypted password manager browser extension. Your privacy is our top priority. This policy explains how we handle your data.</p>
+
+    <h2>2. Data Collection and Usage</h2>
+    <p><strong>We do not collect, store, transmit, or share any of your data.</strong> All passwords, TOTP (2FA) secrets, and notes are encrypted using AES-GCM 256-bit encryption and stored <em>exclusively</em> on your local device. We do not have access to your data, and no data is ever sent to our servers or any third-party servers.</p>
+
+    <h2>3. Permissions</h2>
+    <p>The extension requests specific browser permissions (such as reading the current tab URL or accessing the clipboard) solely to provide core functionalities like auto-filling domains and copying passwords. These permissions are used locally and do not involve data transmission.</p>
+
+    <h2>4. Contact</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us via the Chrome Web Store listing.</p>
+    
+    <p><a href="index.html">← Back to Home</a></p>
+
+    <script>
+        document.getElementById("date").textContent = new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' });
+    </script>
+</body>
+</html>

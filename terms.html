@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - LocalVault</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8f9fa; color: #333; line-height: 1.6; padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+        h1 { color: #1a73e8; }
+        h2 { color: #333; margin-top: 30px; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Terms of Service</h1>
+    <p><strong>Last updated:</strong> <span id="date"></span></p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By installing and using the LocalVault browser extension, you agree to these Terms of Service.</p>
+
+    <h2>2. Local-First Software</h2>
+    <p>LocalVault is a "local-first" application. This means your encrypted vault is stored exclusively on your device. <strong>We do not have a copy of your data, nor do we have the ability to recover your Master Password or your encrypted vault.</strong> If you lose your Master Password, your data is permanently inaccessible.</p>
+
+    <h2>3. No Warranty</h2>
+    <p>The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose.</p>
+
+    <h2>4. Limitation of Liability</h2>
+    <p>In no event shall the developers of LocalVault be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from the use of the software or the loss of data.</p>
+
+    <h2>5. Changes to Terms</h2>
+    <p>We reserve the right to modify these terms at any time. Continued use of the extension constitutes acceptance of the updated terms.</p>
+
+    <p><a href="index.html">← Back to Home</a></p>
+
+    <script>
+        document.getElementById("date").textContent = new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' });
+    </script>
+</body>
+</html>
